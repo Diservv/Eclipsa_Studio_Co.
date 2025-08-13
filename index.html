@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipsa Studio - Portfólio</title>
+    <link rel="stylesheet" href="assets/main_config/style.css">
+    <link rel="icon" href="./assets/aqua.jpg">
+</head>
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="./assets/aqua.jpg" alt="Eclipsa Studio Logo" class="logo">
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#carrossel">Início</a></li>
+                    <li><a href="#personagens">Personagens</a></li>
+                    <li><a href="#sobre">Sobre o Projeto</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-icon" id="mobileMenuIcon">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href="#carrossel">Início</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+                <li><a href="#sobre">Sobre o Projeto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="carrossel" class="carrossel">
+            <div class="carrossel-container">
+                <div class="carrossel-slide active">
+                    <img src="./assets/eclipsa_web_layout_ref.jpg" alt="Destaque 1">
+                    <div class="carrossel-texto">
+                        <h2>Bem-vindo à Eclipsa Studio</h2>
+                        <p>Onde a imaginação ganha vida em animações incríveis!</p>
+                    </div>
+                </div>
+                <div class="carrossel-slide">
+                    <img src="./assets/eclipsa_web_layout_ref.jpg" alt="Destaque 2">
+                    <div class="carrossel-texto">
+                        <h2>Projetos Originais</h2>
+                        <p>Conheça nossos personagens e universos criativos.</p>
+                    </div>
+                </div>
+                <div class="carrossel-slide">
+                    <img src="./assets/eclipsa_web_layout_ref.jpg" alt="Destaque 3">
+                    <div class="carrossel-texto">
+                        <h2>Equipe de Talentos</h2>
+                        <p>Profissionais apaixonados por animação e inovação.</p>
+                    </div>
+                </div>
+                <button class="carrossel-btn prev">&#10094;</button>
+                <button class="carrossel-btn next">&#10095;</button>
+            </div>
+        </section>
+        <section id="personagens" class="personagens">
+            <h2>Personagens</h2>
+            <div class="personagens-lista">
+                <!-- Personagens inseridos via JS -->
+            </div>
+            <div class="personagem-modal" id="personagemModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img id="modalImg" src="./assets/aqua.jpg" alt="Personagem">
+                    <h3 id="modalNome"></h3>
+                    <p id="modalBio"></p>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <h2>Sobre o Projeto</h2>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>O projeto Eclipsa Studio nasceu da paixão por contar histórias através da animação. Nossa missão é criar universos envolventes, personagens marcantes e experiências visuais inesquecíveis. Utilizamos tecnologia de ponta e criatividade para entregar animações que encantam públicos de todas as idades.</p>
+                    <p>Com uma equipe multidisciplinar, desenvolvemos desde roteiros originais até a finalização de cada frame, sempre buscando inovação e excelência artística.</p>
+                </div>
+                <div class="sobre-pngs">
+                    <img src="./assets/aqua.jpg" class="sobre-png flutuante1" alt="Ilustração 1">
+                    <img src="./assets/aqua.jpg" class="sobre-png flutuante2" alt="Ilustração 2">
+                </div>
+            </div>
+        </section>
+        <section id="equipe" class="equipe">
+            <h2>Equipe</h2>
+            <div class="equipe-lista">
+                <!-- Membros inseridos via JS -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Eclipsa Studio</h4>
+                <p>© 2025 Eclipsa Studio. Todos os direitos reservados.</p>
+                <p>contato@eclipsastudio.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Subsidiárias</h4>
+                <ul>
+                    <li>Eclipsa Kids</li>
+                    <li>Eclipsa Music</li>
+                    <li>Eclipsa Games</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Parceiros</h4>
+                <ul>
+                    <li>Animax Studios</li>
+                    <li>DreamFrame</li>
+                    <li>PixelArts</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <ul class="footer-social">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/main_config/script.js"></script>
+</body>
+</html>
