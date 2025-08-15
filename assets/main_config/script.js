@@ -44,13 +44,28 @@ const personagens = [
         bio: 'Luna é uma jovem inventora brilhante, apaixonada por robótica e aventuras. Sua criatividade é a chave para resolver problemas complexos.'
     },
     {
+        nome: 'Luna',
+        img: 'assets/aqua.jpg',
+        bio: 'Luna é uma jovem inventora brilhante, apaixonada por robótica e aventuras. Sua criatividade é a chave para resolver problemas complexos.'
+    },
+    {
+        nome: 'Luna',
+        img: 'assets/aqua.jpg',
+        bio: 'Luna é uma jovem inventora brilhante, apaixonada por robótica e aventuras. Sua criatividade é a chave para resolver problemas complexos.'
+    },
+    {
+        nome: 'Luna',
+        img: 'assets/aqua.jpg',
+        bio: 'Luna é uma jovem inventora brilhante, apaixonada por robótica e aventuras. Sua criatividade é a chave para resolver problemas complexos.'
+    },
+    {
         nome: 'Orion',
-        img: 'assets/personagem2.png',
+        img: 'assets/aqua.jpg',
         bio: 'Orion é o guardião da cidade, corajoso e leal. Com sua armadura tecnológica, protege seus amigos e enfrenta qualquer desafio.'
     },
     {
         nome: 'Mira',
-        img: 'assets/personagem3.png',
+        img: 'assets/aqua.jpg',
         bio: 'Mira é uma artista talentosa, capaz de dar vida a qualquer desenho. Sua imaginação não tem limites e inspira todos ao seu redor.'
     }
 ];
@@ -133,7 +148,37 @@ const equipe = [
             twitter: '#',
             linkedin: '#'
         }
-    }
+    },
+    {
+        nome: 'Rchrtz',
+        funcao: 'Diretora de Criação',
+        img: 'assets/Image maker 2.jpeg',
+        social: {
+            instagram: '#',
+            twitter: '#',
+            linkedin: '#'
+        }
+    },
+    {
+        nome: 'Rchrtz',
+        funcao: 'Diretora de Criação',
+        img: 'assets/Image maker 2.jpeg',
+        social: {
+            instagram: '#',
+            twitter: '#',
+            linkedin: '#'
+        }
+    },
+    {
+        nome: 'Rchrtz',
+        funcao: 'Diretora de Criação',
+        img: 'assets/Image maker 2.jpeg',
+        social: {
+            instagram: '#',
+            twitter: '#',
+            linkedin: '#'
+        }
+    },
 ];
 const equipeLista = document.querySelector('.equipe-lista');
 equipe.forEach(m => {
